@@ -1,5 +1,13 @@
-from src.functions.normal_functions import sum_nr_na, sum_yr_ya, returns_values
+
+from src.functions.arbitory_functions import advance_junaid
 
 if __name__ == '__main__':
-    a, s, d, f, g = returns_values()
-    print(returns_values())
+
+    # Junaid
+    advance_junaid("Junaid", 100, 90, 20)
+
+    # Zahida
+    advance_junaid("Zahida", 90, 100, 0, 0, school="BPS")
+
+    # Ikram
+    advance_junaid("Ikram", 3, 100)
