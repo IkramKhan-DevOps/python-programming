@@ -46,14 +46,38 @@ def addition_4(num1, num2):
 
 
 # FUNCTION: Default args => arguments/parameters => function(values) -------------------------------------------
-def student_registration(name, roll_no, department="BSE"):
-    print("Name      : ", name)
-    print("Roll no   : ", roll_no)
-    print("Department: ", department)
+def student_registration1(name, roll_no):
+    print("Name:", name, "Roll no:", roll_no)
 
 
 # FUNCTION: Keyword args => ------------------------------------------------------------------------------------
-def student_registration(name, roll_no, department="BSE"):
+def student_registration2(name, roll_no):
     print("Name      : ", name)
     print("Roll no   : ", roll_no)
-    print("Department: ", department)
+    print()
+
+
+def simple_sum(num1, num2):
+    print("Result:", num1+num2)
+
+
+def arbitrary_sum(*args):
+    result = 0
+    for n in args:
+        result += n
+    print("Result:", result)
+
+
+def student_marks(name, **marks):
+    print("NAME :", name)
+    print("TOTAL:", 400)
+    print()
+
+    result = 0
+    for key, value in marks.items():
+        result += value
+        print(key, value)
+
+    print()
+    print("OBTAINED:", result)
+
