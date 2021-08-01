@@ -21,6 +21,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programming\Python\python-programming" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -33,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python tests.Unittests for test_main.TestMain.test_add">
     <configuration name="advance_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,8 +127,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_main.TestMain.test_add" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extras/c1_testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main.TestMain.test_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_main.TestMain.test_add" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.lecture" />
         <item itemvalue="Python.main" />
@@ -148,7 +169,8 @@
       <workItem from="1627638422959" duration="2601000" />
       <workItem from="1627665858822" duration="4950000" />
       <workItem from="1627723261262" duration="508000" />
-      <workItem from="1627725659121" duration="2883000" />
+      <workItem from="1627725659121" duration="3903000" />
+      <workItem from="1627755513101" duration="868000" />
     </task>
     <servers />
   </component>
@@ -159,7 +181,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/python_base/functions.py</url>
+          <url>file://$PROJECT_DIR$/course/python_base/functions.py</url>
           <line>48</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -167,7 +189,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_programming$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1627728544162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python_base" />
+    <SUITE FILE_PATH="coverage/python_programming$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1627728563740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python_base" />
+    <SUITE FILE_PATH="coverage/python_programming$Unittests_for_test_main_TestMain_test_add.coverage" NAME="Unittests for test_main.TestMain.test_add Coverage Results" MODIFIED="1627756283251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extras/c1_testing" />
     <SUITE FILE_PATH="coverage/python_programming$advance_functions.coverage" NAME="advance_functions Coverage Results" MODIFIED="1627555638597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/functions" />
     <SUITE FILE_PATH="coverage/python_programming$main.coverage" NAME="main Coverage Results" MODIFIED="1627560322631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/functions" />
     <SUITE FILE_PATH="coverage/python_programming$lecture.coverage" NAME="lecture Coverage Results" MODIFIED="1627641182426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/functions" />
