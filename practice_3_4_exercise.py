@@ -102,20 +102,38 @@ def registration(marks):
         print("Please select numbers between 1-10")
 
 
-registration(1)
-registration(2)
-registration(3)
-registration(4)
-registration(5)
-registration(6)
-registration(7)
-registration(8)
-registration(9)
-registration(10)
-print()
-registration(0)
-registration(-1)
-registration(1000)
-registration(11)
+""" PASS, CONTINUE, BREAK ELSE in LOOPS"""
+"""
+    PRIME NUMBER => number/1 = mode 0 and number/number = mode 0  => %
+    18 => CHECK  =>  not-prime
+    13 => CHECK  =>  prime
+    7  => CHECK  =>  prime
+    12 => CHECK  =>  not-prime
+    15 => CHECK  =>  not-prime
+    [1-15 (15%1) = 0 [15%2=NZ 15%3=NZ 15%4=NZ .....] (15%15) == 0]
+"""
 
 
+def is_prime(number):
+    for n in range(2, number):
+        if number % n == 0:
+            print("Number " + str(number) + " is NOT-PRIME")
+            break
+    else:  # 1: When no break encounter in loop 2: loop [if]
+        print("Number " + str(number) + " is PRIME")
+
+
+def is_prime_while(number):
+    n = 2
+    while n < number:
+        if number % n == 0:
+            print("Number " + str(number) + " is NOT-PRIME")
+            break
+        n += 1
+    else:  # 1: When no break encounter in loop 2: loop [if]
+        print("Number " + str(number) + " is PRIME")
+
+
+is_prime_while(15)
+is_prime_while(4)
+is_prime_while(13)
